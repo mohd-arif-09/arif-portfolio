@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Arif | Software Developer</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Particle.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-inner"></div>
+            <div class="loader-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="user">
+            <img src="images/arif.png" alt="Mohammad Arif">
+            <h3 class="name">Mohammad Arif</h3>
+            <p class="post">MCA Student | Software Developer</p>
+            <div class="social-links">
+                <a href="https://github.com/mohd-arif-09" target="_blank" rel="noopener" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohammad-arif-2b9189271" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/917081193546" target="_blank" rel="noopener" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i>About</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i>Education</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i>Skills</a></li>
+                <li><a href="#portfolio"><i class="fas fa-briefcase"></i>Projects</a></li>
+                <li><a href="#achievements"><i class="fas fa-trophy"></i>Achievements</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content" data-aos="fade-right" data-aos-duration="1000">
+            <div class="typing-container">
+                <h3>Hello, I'm</h3>
+                <h1>Mohammad <span class="gradient-text">Arif</span></h1>
+                <h3>And I'm a <span class="typing-text"></span></h3>
+            </div>
+            <p>BCA graduate in Data Science & Artificial Intelligence and currently pursuing MCA at Chandigarh University for the 2026–2028 session. I have hands-on project experience with Java, Spring Boot, MySQL, HTML, CSS, and React JS. I enjoy building responsive, user-friendly web applications and solving practical problems through technology. I am eager to learn, contribute to a development team, and grow as a software developer.</p>
+            <div class="btn-group">
+                <a href="#contact" class="btn">Hire Me <i class="fas fa-paper-plane"></i></a>
+                <a href="arif.pdf" class="btn btn-secondary" download>Download CV <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+
+        <!-- Floating Elements -->
+        <div class="floating-elements">
+            <div class="floating-icon" style="--delay: 0s"><i class="fab fa-react"></i></div>
+            <div class="floating-icon" style="--delay: 2s"><i class="fab fa-js-square"></i></div>
+            <div class="floating-icon" style="--delay: 4s"><i class="fab fa-html5"></i></div>
+            <div class="floating-icon" style="--delay: 6s"><i class="fab fa-css3-alt"></i></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h1 class="heading" data-aos="fade-up"><span>About</span> Me</h1>
+
+        <div class="row">
+            <div class="info" data-aos="fade-right" data-aos-delay="200">
+                <h3><span>Name:</span> Mohammad Arif</h3>
+                
+                <h3><span>Qualification:</span> BCA in Data Science & AI</h3>
+                <h3><span>Currently:</span> MCA, Chandigarh University</h3>
+                <h3><span>Expected Graduation:</span> 2028</h3>
+                <h3><span>Post:</span> Software Developer (Fresher)</h3>
+                <h3><span>Language:</span> English, Hindi</h3>
+                <h3><span>Status:</span> Fresher</h3>
+                <a href="#contact" class="btn">Contact Me <i class="fas fa-user"></i></a>
+            </div>
+
+            <div class="counter" data-aos="fade-left" data-aos-delay="400">
+                <div class="box">
+                    <span class="count" data-target="2">0</span>
+                    <h3>Featured Projects</h3>
+                </div>
+                <div class="box">
+                    <span class="count" data-target="0">0</span>
+                    <h3>Years Professional Experience</h3>
+                </div>
+                <div class="box">
+                    <span class="count" data-target="0">0</span>
+                    <h3>Client Projects</h3>
+                </div>
+                <div class="box">
+                    <span class="count" data-target="9">0</span>
+                    <h3>Technologies</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h1 class="heading" data-aos="fade-up"><span>My</span> Education</h1>
+
+        <div class="box-container">
+            <div class="box" data-aos="fade-right" data-aos-delay="100">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2026 - 2028</span>
+                <h3>Master of Computer Applications (MCA)</h3>
+                <p>Currently pursuing MCA at Chandigarh University for the 2026–2028 academic session, with expected completion in 2028.</p>
+                <div class="grade">Status: Pursuing</div>
+            </div>
+
+            <div class="box" data-aos="fade-left" data-aos-delay="200">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021 - 2025</span>
+                <h3>BCA in Data Science & AI</h3>
+                <p>Completed Bachelor of Computer Applications (BCA) with specialization in Data Science & Artificial Intelligence at Babu Banarasi Das University, Lucknow.</p>
+                <div class="grade">Grade: 72.65%</div>
+            </div>
+
+            <div class="box" data-aos="fade-left" data-aos-delay="400">
+                <i class="fas fa-school"></i>
+                <span>2020 - 2022</span>
+                <h3>Higher Secondary Education</h3>
+                <p>Completed Class 12th with 81.5% marks, highlighting perseverance and commitment to studies. This accomplishment reflects academic capabilities and prepares for higher education challenges.</p>
+                <div class="grade">Grade: 81.5%</div>
+            </div>
+
+            <div class="box" data-aos="fade-right" data-aos-delay="600">
+                <i class="fas fa-school"></i>
+                <span>2018 - 2020</span>
+                <h3>Secondary Education</h3>
+                <p>Secured 73.8% in Class 10th exams, demonstrating consistent hard work and strong academic foundation. This achievement reflects dedication to learning and ability to perform well under pressure.</p>
+                <div class="grade">Grade: 73.8%</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h1 class="heading" data-aos="fade-up"><span>Technical</span> Skills</h1>
+
+        <div class="skills-container">
+            <div class="skills-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                    <span class="skill-percent">90%</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                    <span class="skill-percent">85%</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                    <span class="skill-percent">80%</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React JS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75%"></div>
+                    </div>
+                    <span class="skill-percent">75%</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                    <span class="skill-percent">80%</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Spring Boot</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                    <span class="skill-percent">70%</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>MySQL</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                    <span class="skill-percent">85%</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="78%"></div>
+                    </div>
+                    <span class="skill-percent">78%</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git & GitHub</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="82%"></div>
+                    </div>
+                    <span class="skill-percent">82%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading" data-aos="fade-up"><span>My</span> Projects</h1>
+
+        <div class="box-container">
+            <div class="box" data-aos="flip-left" data-aos-delay="200">
+                <div class="project-overlay">
+                    <div class="project-info">
+                        <h3>Chat Application</h3>
+                        <p>Real-time messaging application built with modern web technologies</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Socket.io</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mohd-arif-09/Real-Time-Chat-Application" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i> View Source</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/chat_application.png" alt="Chat Application">
+            </div>
+
+            <div class="box" data-aos="flip-right" data-aos-delay="400">
+                <div class="project-overlay">
+                    <div class="project-info">
+                        <h3>Gym Management System</h3>
+                        <p>Complete gym management solution with member tracking and billing</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Thymeleaf</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mohd-arif-09/Gym-Management-System" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i> View Source</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/gym_management.png" alt="Gym Management System">
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements" id="achievements">
+        <h1 class="heading" data-aos="fade-up"><span>My</span> Achievements</h1>
+
+        <div class="achievement-slider" data-aos="fade-up" data-aos-delay="300">
+            <div class="slider-container">
+                <div class="slide active">
+                    <img src="images/tcs.jpg" alt="TCS Certificate" class="achievement-img">
+                    <div class="slide-content">
+                        <h3>Professional Development</h3>
+                        <p>Continuously developing software and problem-solving skills through practical learning and projects.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/unified.jpg" alt="Unified Certification" class="achievement-img">
+                    <div class="slide-content">
+                        <h3>Full Stack Development Internship</h3>
+                        <p>Completed a Full Stack Development internship with Unified Mentor, including work on the Gym Management System.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn prev" onclick="changeSlide(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn next" onclick="changeSlide(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="slider-indicators">
+                <span class="indicator active" onclick="currentSlide(1)"></span>
+                <span class="indicator" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h1 class="heading" data-aos="fade-up"><span>Contact</span> Me</h1>
+
+        <div class="row">
+            <div class="content" data-aos="fade-right" data-aos-delay="200">
+                <h3 class="title">Contact Info</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i> <a href="mailto:arifshekh0951@gmail.com">arifshekh0951@gmail.com</a></h3>
+                    <h3><i class="fas fa-phone"></i> <a href="tel:+917081193546">+91 7081193546</a></h3>
+                    <h3><i class="fas fa-map-marker-alt"></i> Lucknow, Uttar Pradesh, India</h3>
+                </div>
+
+                <div class="social-contact">
+                    <h3>Follow Me</h3>
+                    <div class="social-links-contact">
+                        <a href="https://github.com/mohd-arif-09" target="_blank" rel="noopener" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mohammad-arif-2b9189271" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/917081193546" target="_blank" rel="noopener" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <form data-aos="fade-left" data-aos-delay="400" class="contact-form">
+                <input type="text" placeholder="Your Name" class="box" required>
+                <input type="email" placeholder="Your Email" class="box" required>
+                <input type="text" placeholder="Subject" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Mohammad Arif. All rights reserved.</p>
+            <p>Built with <i class="fas fa-heart" style="color: #ff6b6b;"></i> using modern web technologies</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
